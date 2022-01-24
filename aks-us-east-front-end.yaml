@@ -51,7 +51,7 @@ spec:
         - name: ORDER_HOST
           value: 'order.acmefitness.net'
         - name: CART_HOST
-          value: 'cart.acmefitness.net'
+          value: 'cart.acmefitness.netk '
         - name: USERS_PORT
           value: '8081'
         - name: CATALOG_PORT
