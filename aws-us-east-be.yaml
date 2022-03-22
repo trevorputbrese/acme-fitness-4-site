@@ -455,7 +455,8 @@ spec:
     # -image: gcr.io/vmwarecloudadvocacy/acmeshop-catalog:rel1
     # -image: gcr.io/vmwarecloudadvocacy/amceshop-catalog:stable
     # -image: projects.registry.vmware.com/trvcloud/catalog-aws-east:v0.2
-      - image: harbor.trvharbor.com/acme-fitness/catalog-aws-east:v0.2
+    # - image: harbor.trvharbor.com/acme-fitness/catalog-aws-east:v0.2
+      - image: registry.tkgharbor.com/acme-fitness/catalog-aws-east:v0.2
         name: catalog
         env:
         - name: CATALOG_DB_HOST
