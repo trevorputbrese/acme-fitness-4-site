@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: acme-fitness-fe-load-balancer
+spec:
+  selector:
+    app: shopping
+  ports:
+    - port: 80
+      targetPort: 3000
+  type: LoadBalancer
