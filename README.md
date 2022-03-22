@@ -52,7 +52,7 @@ Deploy the backend:
 kubectl apply -f aws-us-east-be.yaml
 ```
 
-##AWS - US WEST INSTRUCTIONS #####
+## AWS - US WEST INSTRUCTIONS #####
 Dploy the secrets.
 
 ```
