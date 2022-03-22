@@ -454,7 +454,8 @@ spec:
       containers:
    #  -image: gcr.io/vmwarecloudadvocacy/amceshop-catalog:stable
    #  -image: projects.registry.vmware.com/trvcloud/catalog-aws-west:v0.2
-      - image: harbor.trvharbor.com/acme-fitness/catalog-aws-west:v0.2
+   #  - image: harbor.trvharbor.com/acme-fitness/catalog-aws-west:v0.2
+      - image: registry.tkgharbor.com/acme-fitness/catalog-aws-west:v0.2
         name: catalog
         env:
         - name: CATALOG_DB_HOST
