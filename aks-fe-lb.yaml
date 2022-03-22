@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: shopping
+    service: shopping
   ports:
     - port: 80
       targetPort: 3000
