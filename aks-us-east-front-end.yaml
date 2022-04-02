@@ -39,7 +39,7 @@ spec:
       containers:
     # - image: gcr.io/vmwarecloudadvocacy/acmeshop-front-end:rel1
     # - image: projects.registry.vmware.com/trvcloud/shopping-azure-east:v0.2
-      - image: harbor.trvharbor.com/acme-fitness/shopping-azure-east:v0.2
+      - image: registry.tkgharbor.com/acme-fitness/shopping-azure-east:v0.2
         name: shopping
         env:
         - name: FRONTEND_PORT
